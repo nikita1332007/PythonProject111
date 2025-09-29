@@ -1,5 +1,8 @@
 import psycopg2
+ work1
 
+
+ work2
 
 def create_database(db_name='postgres', user="nikita", password="23456", host='localhost', port=5432) -> None:
     """
