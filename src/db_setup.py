@@ -1,6 +1,4 @@
 import psycopg2
-import os
-
 
 def create_database(db_name='postgres', user="nikita", password="23456", host='localhost', port=5432) -> None:
     """
